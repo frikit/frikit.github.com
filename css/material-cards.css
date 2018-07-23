@@ -1,3 +1,16 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+}
+
+canvas{
+    position: absolute;
+    background-color: #24313E;
+}
+
 .fa-spin-fast {
     -webkit-animation: fa-spin-fast 0.2s infinite linear;
     animation: fa-spin-fast 0.2s infinite linear;
@@ -22,37 +35,22 @@
         transform: rotate(179deg);
     }
 }
-body {
-    align-self: center;
-    align-items: center;
-    align-content: center;
-    padding: 180px 400px;
-}
 
 .container {
-    position: relative;
-    height: 0;
+    position: absolute;
     width: 400px;
     height: 400px;
     min-width: 400px;
     min-height: 400px;
-    align-self: center;
-    align-items: center;
-    align-content: center;
+    padding: 180px 200px;
 }
 
 .material-card {
-    position: relative;
-    height: 0;
-    padding-bottom: calc(100% - 16px);
-    margin-bottom: 6.6em;
+    position: absolute;
     width: 400px;
     height: 400px;
     min-width: 400px;
     min-height: 400px;
-    align-self: center;
-    align-items: center;
-    align-content: center;
 }
 
 .img-resp {
@@ -189,11 +187,11 @@ body {
     margin: 0;
     font-size: 16px;
     font-weight: 700;
-    -webkit-transition: all 1.4s;
-    -moz-transition: all 1.4s;
-    -ms-transition: all 1.4s;
-    -o-transition: all 1.4s;
-    transition: all 1.4s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
 }
 .material-card .mc-footer a {
     display: block;
@@ -207,7 +205,7 @@ body {
     color: #fff;
     line-height: 52px;
     text-decoration: none;
-    top: 200px;
+    top: 150px;
 }
 .material-card .mc-footer a:nth-child(1) {
     -webkit-transition: all 0.5s;
