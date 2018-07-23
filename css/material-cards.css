@@ -27,6 +27,7 @@
     height: 0;
     padding-bottom: calc(100% - 16px);
     margin-bottom: 6.6em;
+    align-self: center;
 }
 .material-card h2 {
     position: absolute;
