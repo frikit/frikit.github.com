@@ -36,28 +36,33 @@ canvas{
     }
 }
 
+h3 {
+    font-size: 25px;
+    font-style: italic;
+}
+
 .container {
     position: absolute;
-    width: 400px;
-    height: 400px;
-    min-width: 400px;
-    min-height: 400px;
-    padding: 180px 200px;
+    width: 416px;
+    height: 416px;
+    min-width: 416px;
+    min-height: 416px;
+    padding: 180px 600px;
 }
 
 .material-card {
     position: absolute;
-    width: 400px;
-    height: 400px;
-    min-width: 400px;
-    min-height: 400px;
+    width: 416px;
+    height: 416px;
+    min-width: 416px;
+    min-height: 416px;
 }
 
 .img-resp {
     display: block;
     max-width: 100%;
     height: auto;
-    width: 384px;
+    width: 400px;
 }
 
 .material-card h2 {
@@ -71,11 +76,11 @@ canvas{
     line-height: 1.6em;
     margin: 0;
     z-index: 10;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
 .material-card h2 span {
     display: block;
@@ -93,11 +98,11 @@ canvas{
     top: -16px;
     width: 0;
     border: 8px solid;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
 .material-card h2:after {
     top: auto;
@@ -125,11 +130,11 @@ canvas{
     top: 0;
     bottom: 16px;
     left: 16px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
 .material-card .mc-btn-action {
     position: absolute;
@@ -146,11 +151,11 @@ canvas{
     color: #fff;
     cursor: pointer;
     z-index: 20;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
 .material-card.mc-active .mc-btn-action {
     top: 65px;
@@ -164,20 +169,20 @@ canvas{
     overflow: hidden;
     opacity: 0;
     filter: alpha(opacity=0);
-    -webkit-transition: all 1.2s;
-    -moz-transition: all 1.2s;
-    -ms-transition: all 1.2s;
-    -o-transition: all 1.2s;
-    transition: all 1.2s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
 .material-card .mc-footer {
     height: 0;
     overflow: hidden;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
 .material-card .mc-footer h4 {
     position: absolute;
@@ -197,8 +202,8 @@ canvas{
     display: block;
     float: left;
     position: relative;
-    width: 52px;
-    height: 52px;
+    width: 50px;
+    height: 50px;
     margin-left: 5px;
     margin-bottom: 15px;
     font-size: 28px;
@@ -208,34 +213,41 @@ canvas{
     top: 150px;
 }
 .material-card .mc-footer a:nth-child(1) {
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.material-card .mc-footer a:nth-child(2) {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
-.material-card .mc-footer a:nth-child(2) {
+.material-card .mc-footer a:nth-child(3) {
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -ms-transition: all 0.6s;
     -o-transition: all 0.6s;
     transition: all 0.6s;
 }
-.material-card .mc-footer a:nth-child(3) {
+.material-card .mc-footer a:nth-child(4) {
     -webkit-transition: all 0.7s;
     -moz-transition: all 0.7s;
     -ms-transition: all 0.7s;
     -o-transition: all 0.7s;
     transition: all 0.7s;
 }
-.material-card .mc-footer a:nth-child(4) {
+.material-card .mc-footer a:nth-child(5) {
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
     -ms-transition: all 0.8s;
     -o-transition: all 0.8s;
     transition: all 0.8s;
 }
-.material-card .mc-footer a:nth-child(5) {
+.material-card .mc-footer a:nth-child(6) {
     -webkit-transition: all 0.9s;
     -moz-transition: all 0.9s;
     -ms-transition: all 0.9s;
@@ -250,11 +262,11 @@ canvas{
     width: 400px;
     height: 400px;
     z-index: 3;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
 .material-card.mc-active .img-container {
     -webkit-border-radius: 50%;
@@ -296,10 +308,9 @@ canvas{
     position: absolute;
     top: calc(100% - 16px);
     left: 16px;
-    right: 0;
+    right: 0px;
     height: 82px;
-    padding-top: 15px;
-    padding-left: 25px;
+    padding: 15px 25px;
 }
 .material-card.mc-active .mc-footer a {
     top: 0;
@@ -307,45 +318,7 @@ canvas{
 .material-card.mc-active .mc-footer h4 {
     top: -32px;
 }
-.material-card.Red h2 {
-    background-color: #f44336;
-}
-.material-card.Red h2:after {
-    border-top-color: #f44336;
-    border-right-color: #f44336;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-}
-.material-card.Red h2:before {
-    border-top-color: transparent;
-    border-right-color: #b71c1c;
-    border-bottom-color: #b71c1c;
-    border-left-color: transparent;
-}
-.material-card.Red.mc-active h2:before {
-    border-top-color: transparent;
-    border-right-color: #f44336;
-    border-bottom-color: #f44336;
-    border-left-color: transparent;
-}
-.material-card.Red.mc-active h2:after {
-    border-top-color: #b71c1c;
-    border-right-color: #b71c1c;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-}
-.material-card.Red .mc-btn-action {
-    background-color: #f44336;
-}
-.material-card.Red .mc-btn-action:hover {
-    background-color: #b71c1c;
-}
-.material-card.Red .mc-footer h4 {
-    color: #b71c1c;
-}
-.material-card.Red .mc-footer a {
-    background-color: #b71c1c;
-}
+
 .material-card.Red.mc-active .mc-content {
     background-color: #ffebee;
 }
