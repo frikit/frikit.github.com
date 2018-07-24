@@ -10,7 +10,6 @@ canvas{
     position: absolute;
     background-color: #24313E;
 }
-
 .fa-spin-fast {
     -webkit-animation: fa-spin-fast 0.2s infinite linear;
     animation: fa-spin-fast 0.2s infinite linear;
@@ -35,12 +34,10 @@ canvas{
         transform: rotate(179deg);
     }
 }
-
 h3 {
     font-size: 25px;
     font-style: italic;
 }
-
 .container {
     position: absolute;
     width: 416px;
@@ -49,7 +46,6 @@ h3 {
     min-height: 416px;
     padding: 180px 600px;
 }
-
 .material-card {
     position: absolute;
     width: 416px;
@@ -57,14 +53,12 @@ h3 {
     min-width: 416px;
     min-height: 416px;
 }
-
 .img-resp {
     display: block;
     max-width: 100%;
     height: auto;
     width: 400px;
 }
-
 .material-card h2 {
     position: absolute;
     top: calc(100% - 16px);
